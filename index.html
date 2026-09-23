@@ -45,7 +45,7 @@
     }
 
     .sticky-header {
-      position: sticky; top: 58px; z-index: 100;
+      position: sticky; top: 0; z-index: 100;
       background: var(--bg); padding: 16px 24px 0;
       margin: 0 -24px; transition: background 0.3s;
       box-shadow: 0 2px 12px rgba(0,0,0,0.06);
@@ -528,32 +528,8 @@
   </style>
   <style>@keyframes supportPulse{0%,100%{box-shadow:0 4px 15px rgba(249,115,22,0.4);}50%{box-shadow:0 4px 25px rgba(249,115,22,0.75);}}</style>
 </head>
-  <body style="padding-top:58px;">
-<!-- Final Updated Ticker Banner with 'School' Included -->
-<div id="sponsor-banner" translate="no" onclick="window.open('https://wa.me/923005682345?text=Asslamoalaikum!%20Mai%20ads%20chlwana%20chahta%20hu','_blank')" style="width:100%; background:linear-gradient(90deg,#046a38,#16a34a,#046a38); overflow:hidden; position:fixed; top:0; left:0; right:0; z-index:99999; cursor:pointer; box-shadow:0 3px 15px rgba(0,0,0,0.15); padding:10px 0; direction:rtl; font-family: 'Noto Nastaliq Urdu', 'Jameel Noori Nastaleeq', sans-serif;">
-  
-  <div style="display:inline-block; white-space:nowrap; animation:tickerScroll 60s linear infinite; font-size:15px; font-weight:700; color:#ffffff; letter-spacing:0.5px;">
-    📢 اپنے بزنس، اسکول، اکیڈمی یا کالج کا ایڈ یہاں چلوائیں! ✨ ہزاروں لوگوں تک اپنا پیغام پہنچائیں۔ کم خرچ، بہترین طریقہ! &nbsp;&nbsp;&nbsp;&nbsp; 🚀 کیا آپ یہاں اپنا اشتہار لگوانا چاہتے ہیں؟ ابھی رابطہ کریں! &nbsp;&nbsp;&nbsp;&nbsp; <span style="display:inline-block; transform:scaleX(-1);">📞</span> واٹس ایپ: <span style="font-size:18px; font-weight:900; color:#ffeb3b; direction:ltr; unicode-bidi:embed; background:rgba(0,0,0,0.2); padding:2px 8px; border-radius:4px;">0300-568-2345</span> &nbsp;&nbsp;&nbsp;&nbsp;
-  </div>
+  <body>
 
-</div>
-
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500;700&display=swap');
-
-#sponsor-banner {
-  font-family: 'Noto Nastaliq Urdu', serif !important;
-}
-
-@keyframes tickerScroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(50%); }
-}
-
-#sponsor-banner:hover {
-  opacity: 0.95;
-}
-</style>
   <!-- ===== CLOCK WIDGET ===== -->
   <div id="clockWidget">
     <div id="clockTime">12:00:00 AM</div>
